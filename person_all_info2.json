@@ -1,0 +1,27 @@
+{
+  "sap": "86277397",
+  "name": "张俊",
+  "department": "研究院--智算中心",
+  "excel_template": "附件4 竞聘人选情况表-计算机.xlsx",
+
+  "patents": [],
+  "project_rewards": [
+    {
+      "project_name": "GeoEast在复杂生产环境下的系统优化和基础设施保障技术研究",
+      "department": "研究院",
+      "award_unit": "中国石油集团东方地球物理公司",
+      "app_rank": "",
+      "honor_year": 2019,
+      "honor_name": "科技进步奖",
+      "award_rank": "局级",
+      "honor_rank": "三等奖",
+
+      "innovation_point": "在GeoEast集群生产中，因数据量......",
+      "apply_effect": "1、“分层多任务高效迁移技术”目前已在研究院处理中心全面投入使用，......",
+      "persons_str": "赵玉梅、马迅飞、张洁、张红杰、李华松、张俊、陈翔、曹士炳",
+      "persons_total_num": 8,
+      "person_rank": 6
+    }
+  ],
+  "copyrights": []
+}
