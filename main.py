@@ -6,29 +6,26 @@ from openpyxl import load_workbook
 from flask import Flask, send_file, request, jsonify
 from openpyxl import load_workbook
 from io import BytesIO
+from werkzeug.utils import secure_filename
 
 from model.person import Person
 
-# # Define your template
-# template_source = """
-# {% for item in data.project_rewards %}
-# {{ loop.index }}. 项目名称”{{ item.project_name }}“, 奖项名称"{{ item.award_name }}"
-# {% endfor %}
-# """
-#
-# # Setup the jinja2 environment
-# env = Environment(loader=DictLoader({'my_template': template_source}))
-#
-# # Get the template
-# template = env.get_template('my_template')
-#
-# # Render the template with the data
-# output = template.render(data=person_info)
-#
-# print(output)
-# print("---------------------------------------------------")
-
 app = Flask(__name__)
+
+app.config['UPLOAD_FOLDER'] = os.getcwd()
+
+
+@app.route('/upload_template', methods=['POST'])
+def upload_file():
+    if 'file' not in request.files:
+        return {"error": "No file part in the request."}, 400
+    file = request.files['file']
+    if file.filename == '':
+        return {"error": "No selected file."}, 400
+    if file:
+        filename = secure_filename(file.filename)
+        file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+        return {"success": "File uploaded successfully."}, 200
 
 
 @app.route('/to_excel', methods=['POST'])
