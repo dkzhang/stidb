@@ -3,8 +3,26 @@
   "name": "张俊",
   "department": "研究院--智算中心",
   "excel_template": "附件4 竞聘人选情况表-计算机.xlsx",
-
-  "patents": [],
+  "patents": [
+    {
+      "patent_name": "一种基于LSTM-GAT的项目作业资源预测方法 ",
+      "department": "一种基于LSTM-GAT的项目作业资源预测方法 ",
+      "project": "研究院-计算机技术服务中心 ",
+      "project_no": "01-03-2022 ",
+      "country": "中国",
+      "status": "申请受理",
+      "patent_category": "发明专利",
+      "patentee": "中国石油天然气集团有限公司，中国石油集团东方地球物理勘探有限责任公司 ",
+      "application_no": "202310701083.6 ",
+      "patent_no": "",
+      "certificate_no": "",
+      "application_date": 20230614,
+      "authorization_date": -1,
+      "inventor": "张俊、曹士炳、马迅飞、陈翔、翟修齐、章雯颖 ",
+      "persons_total_num": 6,
+      "person_rank": 1
+    }
+  ],
   "project_rewards": [
     {
       "project_name": "GeoEast在复杂生产环境下的系统优化和基础设施保障技术研究",
@@ -15,7 +33,6 @@
       "honor_name": "科技进步奖",
       "award_rank": "局级",
       "honor_rank": "三等奖",
-
       "innovation_point": "在GeoEast集群生产中，因数据量......",
       "apply_effect": "1、“分层多任务高效迁移技术”目前已在研究院处理中心全面投入使用，......",
       "persons_str": "赵玉梅、马迅飞、张洁、张红杰、李华松、张俊、陈翔、曹士炳",
@@ -23,5 +40,24 @@
       "person_rank": 6
     }
   ],
-  "copyrights": []
+  "copyrights": [],
+  "papers": [
+    {
+      "paper_name": "海量数据的分布式并行集群存储技术研究与应用",
+      "report_name": "海量数据的分布式并行集群存储技术研究与应用",
+      "proj_name": "低成本备份冷存储系统",
+      "reception": "是",
+      "publish": "是",
+      "scope": "",
+      "publish_year": 2019,
+      "publication_name": "信息系统工程",
+      "detail": "《海量数据的分布式并行集群存储技术研究与应用》在《信息系统工程》2019年第2期发表。 ",
+      "remark": "",
+      "first_author": "张俊",
+      "author_sort": "张俊，马迅飞，张进铎，李华松，向光阳",
+      "persons_total_num": 5,
+      "person_rank": 1
+    }
+  ],
+  "honors": []
 }

@@ -20,6 +20,6 @@ class Patent:
     grant_date: int = field(metadata=config(field_name="authorization_date"))  # 授权日期
 
     persons_str: str = field(metadata=config(field_name="inventor"))  # 发明人/设计人 字符串
-    persons_total_num: int = field(metadata=config(field_name="persons_total_num:"))  # 总人数
+    persons_total_num: int = field(metadata=config(field_name="persons_total_num"))  # 总人数
     person_rank: str = field(metadata=config(field_name="person_rank"))  # 本人排名
 
