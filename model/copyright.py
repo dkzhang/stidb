@@ -20,7 +20,7 @@ class CopyRight:
     copyright_holder: str = field(metadata=config(field_name="patentee"))  # 专利权人
     certificate_code: str = field(metadata=config(field_name="certifi_no"))  # 著作权证书编号
     software_reg_code: str = field(metadata=config(field_name="software_no"))  # 软件登记号
-    remarks: str = field(metadata=config(field_name="remarks"))  # 备注
+    remarks: str = field(metadata=config(field_name="remark"))  # 备注
 
     persons_str: str = field(metadata=config(field_name="inventor"))  # 发明人/设计人 字符串
     persons_total_num: int = field(metadata=config(field_name="persons_total_num:"))  # 总人数
